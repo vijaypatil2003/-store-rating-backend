@@ -13,7 +13,7 @@ app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/user", require("./routes/userRoutes"));
 app.use("/api/owner", require("./routes/ownerRoutes"));
 app.get("/health", (req, res) => {
-  res.json({ status: "ok" });
+  res.json({ status: "ok", message: "Backend Server is on..." });
 });
 
 mongoose

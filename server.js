@@ -12,6 +12,9 @@ app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/user", require("./routes/userRoutes"));
 app.use("/api/owner", require("./routes/ownerRoutes"));
+app.get("/health", (req, res) => {
+  res.json({ status: "ok" });
+});
 
 mongoose
   .connect(process.env.MONGO_URI)

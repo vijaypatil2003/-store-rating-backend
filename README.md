@@ -389,13 +389,13 @@ Run with: `node seed.js` -->
 ## 📸 Screenshots
 
 ### Login
-![Login](screenshots/login.png)
+<img src="screenshots/login.png" width="600"/>
 
 ### Admin Dashboard
-![Admin](screenshots/dashboard.png)
+<img src="screenshots/dashboard.png" width="600"/>
 
 ### User Stores
-![User](screenshots/store.png)
+<img src="screenshots/store.png" width="600"/>
 
-### User 
-![User](screenshots/user.png)
+### User
+<img src="screenshots/user.png" width="600"/>

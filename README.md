@@ -384,3 +384,18 @@ mongoose.connect(process.env.MONGO_URI).then(async () => {
 ```
 
 Run with: `node seed.js` -->
+
+
+## 📸 Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+### Admin Dashboard
+![Admin](screenshots/dashboard.png)
+
+### User Stores
+![User](screenshots/store.png)
+
+### User 
+![User](screenshots/user.png)
